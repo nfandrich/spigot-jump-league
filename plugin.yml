@@ -1,0 +1,21 @@
+name: CMDPlugin
+main: de.nfandrich.net.main.Main
+version: 1.0.0
+author: NowItsYourTurn
+api-version: '1.15'
+commands:
+   setlobby:
+      description: Setzt die Lobby.
+      usage: /setlobby
+   setspawn:
+      description: Setzt einen Spieler-Spawn.
+      usage: /setspawn <Nummer>
+   setdmspawn:
+      description: Setzt einen Deatchmatch Spieler-Spawn.
+      usage: /setdmspawn <Nummer>
+   start:
+      description: Startet das Spiel manuell.
+      usage: /start
+   hologram:
+      description: Hologramme
+      usage: /hologram
